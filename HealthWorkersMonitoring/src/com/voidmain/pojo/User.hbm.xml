@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 18 May, 2021 12:01:55 AM by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="com.voidmain.pojo.User" table="USER">
+        <id name="addarno" type="java.lang.String">
+            <column name="ADDARNO" />
+            <generator class="assigned" />
+        </id>
+        <property name="employeeid" type="java.lang.String">
+            <column name="EMPLOYEEID" />
+        </property>
+        <property name="name" type="java.lang.String">
+            <column name="NAME" />
+        </property>
+        <property name="mobile" type="java.lang.String">
+            <column name="MOBILE" />
+        </property>
+        <property name="address" type="java.lang.String">
+            <column name="ADDRESS" />
+        </property>
+        <property name="age" type="java.lang.String">
+            <column name="AGE" />
+        </property>
+        <property name="weight" type="java.lang.String">
+            <column name="WEIGHT" />
+        </property>
+        <property name="height" type="java.lang.String">
+            <column name="HEIGHT" />
+        </property>
+        <property name="usertype" type="java.lang.String">
+            <column name="userTYPE" />
+        </property>
+    </class>
+</hibernate-mapping>
